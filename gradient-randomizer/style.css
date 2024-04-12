@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+  margin: 0;
+}
+html body #gradient {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: black;
+  margin: 0;
+}
+html body #gradient #gradient-text {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.44);
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+}
+html body #gradient button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -31.5px 0 0 -120px;
+  background: rgba(0, 0, 0, 0.15);
+  border: 5px solid white;
+  padding: 20px 40px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 40px 10px -30px black;
+}
+html body #gradient button:focus {
+  outline: 0;
+}
+html body #gradient button:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  left: -5px;
+  width: 96.2%;
+  margin: auto;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+}

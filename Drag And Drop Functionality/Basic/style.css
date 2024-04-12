@@ -1,0 +1,35 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    background: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.draggable
+{
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #333;
+    cursor: move;
+}
+
+.draggable:hover
+{
+    background: #eee;
+}
+
+.draggable.dragging
+{
+    opacity: 0.5;
+}
+
+.draggable.dragging .draggable-content
+{
+    display: none;
+}
