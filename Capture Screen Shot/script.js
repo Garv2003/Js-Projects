@@ -1,6 +1,6 @@
 const screenshotBtn = document.getElementById("screenshotBtn");
 
-screenshotBtn.addEventListener("click", TakeScreenShot());
+screenshotBtn.addEventListener("click", TakeScreenShot);
 
 async function TakeScreenShot() {
   screenshotBtn.classList.add("hidden");
